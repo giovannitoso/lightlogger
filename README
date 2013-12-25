@@ -1,0 +1,12 @@
+light-logger is an open source framework to read, log and analyze data from from a light source (e.g. LED).
+The framework was developed and tested by interfacing a VT90N2 LDR photoresistor, an Arudino UNO microcontroller and a Raspberry PI as embedded system.
+The framework is provided with scripts to:
+- interface the photoresistor with the Arduino board;
+- interface the Arduino with the Raspberry PI;
+- start at boot the framework in the Raspberry PI;
+- collect and to filter the data in the Raspberry PI.
+The programming languages/IDE used are:
+- Wiring and Arduino integrated development environment for the Arduino;
+- shell scripts for the load at boot of the framework in the Raspberry PI;
+- tcl scripts for the framework running in the Raspberry PI.
+The linux OS running on the Raspberry PI is a minimal linux distribution based on Debian called Moebius ()http://moebiuslinux.sourceforge.net/)
